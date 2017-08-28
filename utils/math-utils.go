@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-const _DELTA = 0.0000001
+const _DELTA = 0.000001
 
 func step(z, x float64) float64 {
 	return z - (z*z-x)/(2*z)
